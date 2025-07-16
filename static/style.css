@@ -4,15 +4,31 @@
     box-sizing: border-box;
     padding: 0;
 }
+
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 29px;
+    margin-right: 40px;
+}
+
+#logo img{
+    height: 50px;
+    filter: invert(1);
+}
+
 #navbar{
     background-color:#ed7e64;
     padding: 10px 3px;
     position: sticky;
 }
+
 #navbar ul{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    align-items: center;
     font-family: "Dancing Script", cursive;
     font-size: 2rem;
 }
@@ -68,6 +84,16 @@
     padding-top: 20px;
 }
 
+#sponsors{
+    height: 100px;
+}
+
+.spImage{
+    height: 100px;
+    margin-top: 30px;
+    margin: 40px;
+}
+
 .card{
     display: inline-block;
     font-family: sans-serif;
@@ -87,6 +113,31 @@
     font-size: 18px;
 }
 
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img{
+    height: 100px;
+    padding: 0 10px;
+}
+
+.card-img img{
+    height: 90px;
+}
+
+.card-content{
+    padding: 20px;
+}
+
+.card-content p{
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+    color: black;
+}
+
 #missionSection{
     font-family: "Pinyon Script", cursive;
     height: 225px;
@@ -100,11 +151,11 @@
 }
 
 #footer{
-    font-family: "Pinyon Script", cursive;
-    font-size: 25px;
-    height: 100px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    height: 50px;
     background-color:black;
     text-align: center;
     color: white;
-    padding-top: 5px;
+    padding-top: 15px;
 }
