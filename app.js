@@ -15,12 +15,12 @@ app.set('views', path.join(__dirname, 'views')); // Set the view directory
 // ENDPOINTS
 app.get('/', (req, res)=>{
     const params = {};
-    res.status(200).render('index.pug', params);
+    res.status(200).render('../views/home.pug', params);
 });
 
 app.get('/contact', (req, res)=>{
     const params = {};
-    res.status(200).render('contact.pug', params);
+    res.status(200).render('../views/contact.pug', params);
 });
 
 
